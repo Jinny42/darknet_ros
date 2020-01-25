@@ -13,7 +13,7 @@ $ cd ~/catkin_ws/src/darknet_ros/darknet_ros
 
 <config/ros.yaml>
 
-$ vim config/ros.yaml +4
+$ gedit config/ros.yaml +4
 
 topic: /camera/image_raw
 
@@ -21,7 +21,7 @@ topic: /camera/image_raw
 
 <launch/darknet_ros.launch> 12 line
 
-$ vim launch/darknet_ros.launch +12
+$ gedit launch/darknet_ros.launch +12
 
 default="$(find darknet_ros)/config/ros.yaml"/>
 
@@ -29,7 +29,7 @@ default="$(find darknet_ros)/config/ros.yaml"/>
 
 <src/YoloObjectDetector.cpp> 158 line
 
-vim src/YoloObjectDetector.cpp +158
+gedit src/YoloObjectDetector.cpp +158
 
   imageSubscriber_ = imageTransport_.subscribe(cameraTopicName, cameraQueueSize,                      &YoloObjectDetector::cameraCallback, this);
 
