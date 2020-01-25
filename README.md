@@ -5,7 +5,7 @@
 
 $ cd ~/catkin_ws/src
 
-$ git clone https://github.com/katebrighteyes/darknet_ros
+$ git clone https://github.com/jinny42/darknet_ros
 
 $ cd ~/catkin_ws/src/darknet_ros/darknet_ros
 
